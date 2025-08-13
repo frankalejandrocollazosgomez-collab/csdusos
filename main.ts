@@ -35,8 +35,8 @@ Mbit_IR.onPressEvent(RemoteButton.Left, function () {
     mbit_Robot.CarCtrl(mbit_Robot.CarState.Car_Stop)
 })
 Mbit_IR.onPressEvent(RemoteButton.Down, function () {
-    mbit_Robot.CarCtrlSpeed2(mbit_Robot.CarState.Car_Run, 0, 71)
-    basic.pause(50)
+    mbit_Robot.CarCtrl(mbit_Robot.CarState.Car_Back)
+    basic.pause(100)
     mbit_Robot.CarCtrl(mbit_Robot.CarState.Car_Stop)
 })
 Mbit_IR.onPressEvent(RemoteButton.NUM3, function () {
